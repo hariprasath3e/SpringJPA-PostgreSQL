@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class TestJdbc {
 
 	static final String JDBC_DRIVER = "org.postgresql.Driver";
-	static final String DB_URL = "jdbc:postgresql://localhost:5432/videoanalyzer";
+	static final String DB_URL = "jdbc:postgresql://localhost:5432/testDB";
 
 	// Database credentials
 	static final String USER = "username";
@@ -18,7 +18,7 @@ public class TestJdbc {
 	public static void main(String[] args) {
 		try {
 			Class.forName(JDBC_DRIVER);
-			Connection connection = DriverManager.getConnection(DB_URL, "postgres", "rohithSH45");
+			Connection connection = DriverManager.getConnection(DB_URL, "postgres", "test");
 			System.out.println("Connection :: " + connection);
 			// STEP 4: Execute a query
 			System.out.println("Creating statement...");
