@@ -1,0 +1,11 @@
+com/springjpa/repo/CustomerSpecifications.class
+com/springjpa/model/Address_.class
+com/springjpa/repo/Customer_.class
+com/springjpa/model/Customer_.class
+com/springjpa/model/Address.class
+com/springjpa/repo/CustomerRepository.class
+com/springjpa/controller/WebController.class
+com/springjpa/utils/CreateEntityUtils.class
+com/springjpa/repo/CustomerSpecifications$1.class
+com/springjpa/SpringJpaPostgreSqlApplication.class
+com/springjpa/model/Customer.class
